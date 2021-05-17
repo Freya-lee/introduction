@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="func.js">  
+    </script>
+   
+</head>
+<body>
+   <div id="formfather">
+       <div class="form">
+           <div id="headerlogo">
+               <div id="logobox">
+               <img src="logo.png" alt="logo" id="logo">
+               <div id="headertitle">注册账号</div>
+               </div>
+
+
+           </div>
+           <br />
+           <div class="log">
+                           <div id="inform">
+                           姓名<br />
+                           <input type="text" name="name"  maxlength="20" id="uname" class="finput" placeholder="请输入您的姓名" >
+                           <br />
+                           密码
+                           <br />
+                           <input type="password" name="pwd1" maxlength="30" minlength="6" id="pwd1" class="finput" placeholder="密码需多于6位少于30位"><br />
+                           邮箱<br /></E-mail><input type="text" id="em" class="finput" placeholder="请输入您的电子邮箱"><br />
+                           电话 <br />
+                           <input type="text"  id="nbr" class="finput" placeholder="请输入您的电话号码"><br />
+                           国籍<br />
+                           <select name="" id="" class="finput" >
+                               <option> </option>
+                               <option >中国</option>
+                               <option >the US</option>
+                               <option >the Uk</option>
+                           </select>
+                           <br />
+                           爱好<br />
+                           音乐 <input type="checkbox" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           电影<input type="checkbox" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           体育<input type="checkbox" name="" id="">
+                             <br />
+                             <div id="intro">
+                           个人简介<br /> <textarea name="" id="textarea" cols="34" rows="8"></textarea>
+                             </div>
+                         </div>   
+
+       </div>
+      <button  id="submit" onclick="getvalue1()">提交</button><button  id="login" onclick="jumpLo()">登陆</button>
+   </div>
+</body>
+</html>

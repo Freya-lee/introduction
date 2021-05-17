@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#formfather,.father{
+   background-color: #f3faef;
+    height: 900px;
+    font-weight: 200;
+    color: #d4484c;
+    line-height: 30px;
+}
+.form,#logfather{
+padding-top: 100px;
+padding-left: 9px;
+  height: 800px;
+  width: 300px;
+  background-color: #b2d9db;
+  margin: auto;
+ 
+}
+#inform{
+    margin: auto;
+}
+#headerlogo,.headertp{
+text-align: center;
+font-size: 20px;
+}
+
+#logo{
+    margin-top: 30px;
+    height: 60px;
+}
+.finput{
+    width: 290px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #f3faef;
+    margin-bottom: 10px;
+}
+.finput:hover{
+   background-color: white;
+}
+#textarea{
+    border-radius: 5px;
+    border: 1px solid #f3faef;
+    width: 290px;
+    background-color: #f3faef;
+    margin-bottom: 10px;
+}
+#textarea:hover{
+    background-color: white;
+
+}
+#submit,#login{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #d4484c;
+    background-color: #b2d9db;
+    margin-left: 110px;
+    margin-top: 10px;
+    color: #d4484c;
+    margin-top: 10px;
+}
+#submit:hover{
+    color: white;
+    background-color: #d4484c;
+    border: 1px solid #b2d9db;
+}
+#login:hover{
+    color: white;
+    background-color: #d4484c;
+    border: 1px solid #b2d9db;
+}
+#intro{
+    width: 290px;
+    height: 145px;
+}
+
+.top-wapper{
+
+    background-color: rgba(244, 250, 239);
+    height: 70px;
+}
+.service>li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    color: #d4484c;   
+    height: 60px;
+    width: 140px;
+    line-height: 60px;
+    text-align: center;
+}
+a:hover{
+    background-color: #d4484c;
+    color: #b2d9db;
+}
+.nav{ 
+    background-color: rgba(178, 217, 219);
+    margin: auto;
+    height: 60px;
+    width: 840px;
+}
+.mainpage{
+    height: 830px;
+    background-color: #f3faef;  
+}
+.pagecenter{
+    margin: auto;
+   
+    width: 840px;
+    
+}
+.dream ,.introduce,.study,.life{
+    width: 840px;
+    height: 200px;
+    background-color: #b2d9db;
+    margin-bottom: 10px;
+    color: #d4484c;
+}
+#pic{
+    height: 200px;
+}
+.p,.pic{
+    float: left;
+   
+    width: 250px;
+}
+.selfintro{
+    text-align: center;
+    line-height: 200px;
+    background-color: #b2d9db;
+}
+.selfintro:hover{
+    background-color: #527b9a;
+    color: #b2d9db;
+}
+.wapper{
+    height: 900px;
+    background-color: #f3faef;
+    padding-top: 10px;
+}
+#head{
+   color: #d4484c;
+    background-color: #b2d9db;
+    height: 150px;
+    width: 840px;
+    margin: auto;
+}
+.self{
+    line-height: 150px;
+   
+   margin-left: 450px;
+}
+#p1{
+height: 150px;
+
+}
+.wordswapper{
+    background-color: #b2d9db;
+    width: 840px;
+    height: 730px;
+    margin: auto;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    line-height: 60px;
+    color: #d4484c;
+}
+.words{
+    float: left;
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 46px;
+
+}
+.words:hover{
+    box-shadow: 0 0 15px #527b9a
+}
+.words>li{
+    list-style: none;
+}
+.wordsdream {
+    float: left;
+    width: 800px;
+    height: 370px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#dreamwapper{
+    height: 410px;
+}
+#px{
+    width: 300px;
+    
+}
+#st{
+    width: 750px;
+    height: 640px;
+}
